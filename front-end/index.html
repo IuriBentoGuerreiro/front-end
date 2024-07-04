@@ -1,10 +1,8 @@
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
 
     <title>Home</title>
 </head>
@@ -13,27 +11,39 @@
         <div class="container">
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html"><img src="home.svg" alt=""></a></li>
                     <li><a href="servicos.html">Serviços</a></li>
-                    
-                    <div class="dropdown">
-                    <a href="#" role="button">
-                    Contatos
-                    </a>
-                    <div class="dropdown-conteudo">
-                    <a href="#">WhatsApp <img src="whatsapp.png" alt=""></a>
-                    <a href="#">Email <img src="email.jpeg" alt=""></a>
-                    <a href="#">GitHub <img src="github.png" alt=""></a>
+                        
+                        <div class="dropdown">
+                            <a href="#" role="button">Contatos</a>
+                            <div class="dropdown-conteudo">
+                                <a id="whatsapp" href="#">WhatsApp <img src="whatsapp.png" alt=""></a>
+                                <a id="email" href="#">Email <img src="email.jpeg" alt=""></a>
+                                <a id="github" href="#">GitHub <img src="github.png" alt=""></a>
+                            </div>
                     </div>
-                </div>
                 </ul>
             </nav>
         </div>
     </header>
+
+    <div class="mensagem">
+        <h1>De qual serviço você deseja?</h1>
+        <p>Entre em contato por E-mail ou Whatsapp e fique a vontade para dar uma olhada no GitHub</p>
+    </div>
+
+    <div class="fundo">
+        <img src="tela.jpg" alt="">
+    </div>
+
     <div class="contatos">
         <a href=""><img src="whatsapp.png" alt="contatos"></a>
         <a href=""><img src="email.jpeg" alt="contatos"></a>
         <a href=""><img src="github.png" alt="contatos"></a>
     </div>
+
+    <footer class="rodape">
+        <p>&copy; Todos os direitos desse site estão reservados.</p>
+    </footer>
 </body>
 </html>
